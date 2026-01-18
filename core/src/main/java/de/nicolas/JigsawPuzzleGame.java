@@ -1,4 +1,4 @@
-package de.nicolas.jigsaw;
+package de.nicolas;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.graphics.Texture;
