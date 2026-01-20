@@ -1,4 +1,4 @@
-package de.nicolas;
+package de.nicolas.puzzle;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -12,7 +12,7 @@ import de.nicolas.utils.actors.BaseActor;
 import de.nicolas.utils.game.BaseGame;
 import de.nicolas.utils.screens.BaseScreen;
 
-public class LevelScreen extends BaseScreen {
+public class PuzzleLevel extends BaseScreen {
 
     private Label messageLabel;
     @Override
@@ -67,7 +67,7 @@ public class LevelScreen extends BaseScreen {
     public void update(float delta) {
 
         boolean solved = true;
-        for (BaseActor actor : BaseActor.getList(mainStage, "de.nicolas.PuzzlePiece")){
+        for (BaseActor actor : BaseActor.getList(mainStage, "de.nicolas.puzzle.PuzzlePiece")){
             PuzzlePiece pp = (PuzzlePiece)actor;
             if(!pp.isCorrectPlace()){
                 solved = false;
