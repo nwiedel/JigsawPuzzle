@@ -48,7 +48,7 @@ public abstract class BaseScreen implements Screen, InputProcessor {
 
         update(delta);
 
-        ScreenUtils.clear(0, 0, 0, 1);
+        ScreenUtils.clear(Utils.CORNFLOWER_BLUE);
 
         mainStage.draw();
         uiStage.draw();
