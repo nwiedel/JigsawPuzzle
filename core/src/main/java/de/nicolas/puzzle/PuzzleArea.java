@@ -1,4 +1,4 @@
-package de.nicolas.utils;
+package de.nicolas.puzzle;
 
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import de.nicolas.utils.actors.DropTargetActor;

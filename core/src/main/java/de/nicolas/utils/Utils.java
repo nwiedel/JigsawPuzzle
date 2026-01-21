@@ -1,4 +1,4 @@
-package de.nicolas.utils.screens;
+package de.nicolas.utils;
 
 import com.badlogic.gdx.graphics.Color;
 

@@ -1,7 +1,6 @@
 package de.nicolas.puzzle;
 
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import de.nicolas.utils.PuzzleArea;
 import de.nicolas.utils.actors.DragAndDropActor;
 
 public class PuzzlePiece extends DragAndDropActor {

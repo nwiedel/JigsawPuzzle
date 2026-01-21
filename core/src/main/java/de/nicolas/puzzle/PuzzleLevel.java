@@ -7,7 +7,6 @@ import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import de.nicolas.utils.PuzzleArea;
 import de.nicolas.utils.actors.BaseActor;
 import de.nicolas.utils.game.BaseGame;
 import de.nicolas.utils.screens.BaseScreen;
